@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/puradak"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="로잉머신은 유산소와 근력을 동시에 기를수 있는 전신운동 입니다. 하체와 상체를 동시에 움직이고 동작원리에 의해 저항이 더 강력하기 때문에 근육을 더욱 발달시킬 수 있습니다. 로잉머신은 앚아서 같은 동작을 수행하기 때문에 무릎관절에 문제가 일더라고 어렵지 않게 할 수 있습니다. 중간정도의 강도로 1시간에 1000~1300kcal 정도를 소모합니다." />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/rowing"
+        android:layout_marginTop="150dp"/>
+</FrameLayout>

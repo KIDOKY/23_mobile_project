@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/puradak"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="사이클은 지방 연소를 도와주면서 동시에 하체 근육발달에 도움을 줍니다. 또한 사이클은 몸의 움직임이 크지 않기 때문에 걷거나 뛰는 것에 비해 필요한 산소량이 적습니다. 강도를 높이면 하체 근육 단련에도 효과적입니다. 강도에 따라 다르지만 70kg 성인이 30분을 탔을 경우 약 200kcal를 소모합니다."
+/>
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cycle"
+        android:layout_marginTop="150dp"/>
+
+</FrameLayout>

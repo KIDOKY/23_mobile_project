@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ReviewActivity">
+
+    <TextView
+        android:id="@+id/noReviewTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="후기가 없습니다."
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:fontFamily="@font/puradak"
+        android:gravity="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reviewRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/noReviewTextView"
+
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/writeReviewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/puradak"
+        android:text="후기 작성하기" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/writeReviewButton"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/puradak"
+        android:text="뒤로 가기" />
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    tools:context=".Activity2d">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="setFrag1"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/puradak"
+        android:text="트레드밀" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button3"
+        android:onClick="setFrag2"
+       android:layout_marginLeft="10dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/puradak"
+        android:text="사이클" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button4"
+        android:onClick="setFrag3"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/puradak"
+        android:text="스텝밀" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button5"
+        android:onClick="setFrag4"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/puradak"
+        android:text="로잉머신" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/frame_container">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="300dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/puradak"
+        android:text="돌아가기" />
+
+
+
+</RelativeLayout>
