@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00009688"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivitychu">
+
+    <TextView
+        android:id="@+id/currentCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="현재 인원: 0"
+        android:fontFamily="@font/puradak"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/enterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#009688"
+            android:fontFamily="@font/puradak"
+            android:text="입장" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#009688"
+            android:fontFamily="@font/puradak"
+
+            android:text="퇴장" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/viewCountsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/puradak"
+        android:text="기구 사용 여부" />
+
+    <Button
+        android:id="@+id/exerciseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/puradak"
+        android:text="운동 추천" />
+
+    <Button
+        android:id="@+id/dietButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#009688"
+        android:text="BMR 측정" />
+
+
+    <Button
+        android:id="@+id/reviewButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dietButton"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/puradak"
+        android:text="게시판" />
+
+    <View
+        android:layout_width="391dp"
+        android:layout_height="210dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:backgroundTint="#009688"
+        app:srcCompat="@drawable/s" />
+
+</LinearLayout>

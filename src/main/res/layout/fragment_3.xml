@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/puradak"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="계단을 오르는 형태로 진행되는 유산소 운동입니다. 허벅지 및 엉덩이, 종아리, 코어까지 전체적인 상·하체의의 균형과 심폐지구력을 기르는 데 도움이 됩니다. 체중 70kg인 사람기준으로 30분간 중간 강도로 스텝밀을 이용하면 약 300~350kcal 정도를 소모할 수 있습니다." />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/step"
+        android:layout_marginTop="150dp"/>
+</FrameLayout>

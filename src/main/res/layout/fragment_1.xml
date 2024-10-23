@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/puradak"
+        android:text="트레드밀은 가벼운 준비운동과 정리운동에 효과적입니다. 4~6km/h의 속도로 1시간을 이용했을때 남성은 250, 여성은 200kcal 정도를 소모합니다. 적정 트레드밀 이용시간은 20-60분입니다. 다음은 효과적인 인터벌 트레이닝 루틴입니다.(단, 무릎관절에 무리가 있을경우 걷기만 시행하는것이 좋습니다.)" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/running" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/trad"
+        android:layout_marginTop="170dp"/>
+
+
+</FrameLayout>
